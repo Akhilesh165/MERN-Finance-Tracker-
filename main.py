@@ -40,8 +40,8 @@ async def add_expense(expense: Expense):
 async def predict_budget():
     # Simple Logic: Total ka 10% extra for next month
     df = pd.DataFrame(transactions)
-    if df .empty;
-        return {"predicted_budget"; 0}
+    if df .empty:
+        return {"predicted_budget": 0}
     total = df['amount'].sum()
     prediction = total + (total * 0.10)
     return {"predicted_budget": 
