@@ -1,0 +1,64 @@
+/* Puraane code ko mita kar ye paste karein */
+.App {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7f6;
+  min-height: 100vh;
+  padding: 20px;
+  color: #333;
+}
+
+h1 {
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+/* Form Container */
+div[style*="border"] {
+  background: white;
+  border: none !important;
+  border-radius: 15px !important;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  padding: 30px !important;
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Input Fields */
+input {
+  border: 1px solid #ddd !important;
+  border-radius: 8px !important;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+input:focus {
+  border-color: #27ae60 !important;
+  box-shadow: 0 0 8px rgba(39, 174, 96, 0.2);
+}
+
+/* Add Expense Button */
+button {
+  width: 100%;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  transition: transform 0.2s, background 0.3s;
+  border-radius: 8px !important;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #219150 !important;
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+/* Success Alert jaisa dikhne ke liye */
+h3 {
+  color: #27ae60;
+  margin-bottom: 20px;
+}
